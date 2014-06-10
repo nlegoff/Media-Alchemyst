@@ -20,6 +20,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/nlegoff/Mediavorus"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nlegoff/HP-FFmpeg"
         }
     ],
     "require": {
@@ -30,7 +34,7 @@
         "monolog/monolog"                : "~1.0",
         "neutron/temporary-filesystem"   : "~2.1",
         "pimple/pimple"                  : "~1.0",
-        "php-ffmpeg/php-ffmpeg"          : "~0.4.2",
+        "php-ffmpeg/php-ffmpeg"          : "dev-fix-aspect-ratio as 0.4.4",
         "php-unoconv/php-unoconv"        : "~0.3.0",
         "php-mp4box/php-mp4box"          : "~0.3.0",
         "swftools/swftools"              : "~0.3.0",
