@@ -141,4 +141,16 @@ class ImageTest extends \PHPUnit_Framework_TestCase
         $this->object->setStrip(false);
         $this->assertEquals(false, $this->object->getStrip());
     }
+
+    /**
+     * @covers MediaAlchemyst\Specification\Image::setFlatten
+     * @covers MediaAlchemyst\Specification\Image::getFlatten
+     */
+    public function testSetFlatten()
+    {
+        $this->object->setFlatten(true);
+        $this->assertEquals(true, $this->object->getFlatten());
+        $this->object->setFlatten(false);
+        $this->assertEquals(false, $this->object->getFlatten());
+    }
 }
